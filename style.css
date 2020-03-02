@@ -1,0 +1,56 @@
+* {
+box-sizing: border-box;
+}
+body{
+    background-color: black;
+    margin: 0;
+}
+
+#container{
+    width: 1024px;
+    height: 774px;
+    background-color:blue ;
+   margin: auto;
+   
+}
+
+.container{
+    content: "";
+    display: table;
+    clear: both;
+}
+main{
+    color: black;
+    text-align: center;
+    background-color: blue;
+    height : 50px;
+    margin-bottom: 15px;
+}
+
+.column{
+background-color: blue;
+padding: 290px;
+columns: 2;
+float: left;
+width: 100%;
+}
+
+
+div{
+    grid-template-columns: auto;
+    grid-template-areas: auto;
+    float: right;
+}
+@media screen and (max-width: 992px) {
+    .column {
+      width: 100%;
+    }
+  }
+  
+
+  @media screen and (max-width: 576px) {
+    .column {
+      width: 100%;
+    }
+  }
+  
